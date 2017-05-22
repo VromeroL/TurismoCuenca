@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Turismo Cuenca</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_sitios_turisticos">SitiosTuristicosActivity</string>
+    <string name="title_activity_restaurantes">RestaurantesActivity</string>
+    <string name="encabezado">Encabezado</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="title_activity_restaurante">restauranteActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_restaurantesactivity_list">Items</string>
+    <string name="title_restaurantesactivity_detail">RestaurantesActivity Detail</string>
+    <string name="title_activity_don_colon_restaurante_maps">Map</string>
+    <string name="title_activity_moliendo_cafe_maps">Map</string>
+    <string name="title_activity_pizzalacqua_cuenca_maps">Map</string>
+    <string name="title_activity_ali_baba_kababmaps">Map</string>
+    <string name="title_activity_canaima_maps">Map</string>
+    <string name="title_activity_tacanijo_maps">Map</string>
+    <string name="title_activity_el_tunel_maps">Map</string>
+    <string name="title_activity_pizza_yfocaccia_la_matriz_maps">Map</string>
+    <string name="title_activity_la_casa_cuencana_maps">Map</string>
+    <string name="title_activity_nass_bed_ybreakfast_maps">Map</string>
+    <string name="title_activity_mallki_hostel_maps">Map</string>
+    <string name="title_activity_hostal_pachamama_maps">Map</string>
+    <string name="title_activity_bauhouse_hostel_maps">Map</string>
+    <string name="title_activity_hostal_hogar_cuencano_maps">Map</string>
+    <string name="title_activity_hostal_yakumama_maps">Map</string>
+    <string name="title_activity_posada_del_rio_maps">Map</string>
+    <string name="title_activity_hotel_check_inn_maps">Map</string>
+    <string name="title_activity_mochilier_hostel_ycafe_maps">Map</string>
+    <string name="title_activity_hostal_alternative_maps">Map</string>
+    <string name="title_activity_el_cafecito_hostal_maps">Map</string>
+    <string name="title_activity_bedand_breakfast_miparaiso_maps">Map</string>
+    <string name="title_activity_mi_casa_hostal_maps">Map</string>
+    <string name="title_activity_hostal_villa_del_rosario_maps">Map</string>
+    <string name="title_activity_museo_pumapungo_maps">Map</string>
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vrl.turismocuenca">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".GoogleMapsActivity"
+            android:label="@string/title_activity_google_maps" />
+        <activity android:name=".SitiosTuristicosActivity" />
+        <activity android:name=".EventosActivity" />
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".RestaurantesActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".DonColonRestaurante" />
+        <activity
+            android:name=".DonColonRestauranteMapsActivity"
+            android:label="@string/title_activity_don_colon_restaurante_maps" />
+        <activity android:name=".MoliendoCafe" />
+        <activity
+            android:name=".MoliendoCafeMapsActivity"
+            android:label="@string/title_activity_moliendo_cafe_maps" />
+        <activity android:name=".PizzalacquaCuenca" />
+        <activity
+            android:name=".PizzalacquaCuencaMapsActivity"
+            android:label="@string/title_activity_pizzalacqua_cuenca_maps" />
+        <activity android:name=".AliBabaKABAB" />
+        <activity
+            android:name=".AliBabaKABABMapsActivity"
+            android:label="@string/title_activity_ali_baba_kababmaps" />
+        <activity android:name=".Canaima" />
+        <activity
+            android:name=".CanaimaMapsActivity"
+            android:label="@string/title_activity_canaima_maps" />
+        <activity android:name=".Tacanijo" />
+        <activity
+            android:name=".TacanijoMapsActivity"
+            android:label="@string/title_activity_tacanijo_maps" />
+        <activity android:name=".ElTunel" />
+        <activity
+            android:name=".ElTunelMapsActivity"
+            android:label="@string/title_activity_el_tunel_maps" />
+        <activity android:name=".PizzaYFocacciaLaMatriz" />
+        <activity
+            android:name=".PizzaYFocacciaLaMatrizMapsActivity"
+            android:label="@string/title_activity_pizza_yfocaccia_la_matriz_maps" />
+        <activity android:name=".LaCasaCuencana" />
+        <activity
+            android:name=".LaCasaCuencanaMapsActivity"
+            android:label="@string/title_activity_la_casa_cuencana_maps" />
+        <activity android:name=".NassBedYBreakfast" />
+        <activity
+            android:name=".NassBedYBreakfastMapsActivity"
+            android:label="@string/title_activity_nass_bed_ybreakfast_maps" />
+        <activity android:name=".MallkiHostel" />
+        <activity
+            android:name=".MallkiHostelMapsActivity"
+            android:label="@string/title_activity_mallki_hostel_maps" />
+        <activity android:name=".HostalPachamama" />
+        <activity
+            android:name=".HostalPachamamaMapsActivity"
+            android:label="@string/title_activity_hostal_pachamama_maps" />
+        <activity android:name=".BauhouseHostel" />
+        <activity
+            android:name=".BauhouseHostelMapsActivity"
+            android:label="@string/title_activity_bauhouse_hostel_maps" />
+        <activity android:name=".HostalHogarCuencano" />
+        <activity
+            android:name=".HostalHogarCuencanoMapsActivity"
+            android:label="@string/title_activity_hostal_hogar_cuencano_maps" />
+        <activity android:name=".HostalYakumama" />
+        <activity
+            android:name=".HostalYakumamaMapsActivity"
+            android:label="@string/title_activity_hostal_yakumama_maps" />
+        <activity android:name=".PosadaDelRio" />
+        <activity
+            android:name=".PosadaDelRioMapsActivity"
+            android:label="@string/title_activity_posada_del_rio_maps" />
+        <activity android:name=".HotelCheckInn" />
+        <activity
+            android:name=".HotelCheckInnMapsActivity"
+            android:label="@string/title_activity_hotel_check_inn_maps" />
+        <activity android:name=".MochilierHostelYCafe" />
+        <activity
+            android:name=".MochilierHostelYCafeMapsActivity"
+            android:label="@string/title_activity_mochilier_hostel_ycafe_maps" />
+        <activity android:name=".HostalAlternative" />
+        <activity
+            android:name=".HostalAlternativeMapsActivity"
+            android:label="@string/title_activity_hostal_alternative_maps" />
+        <activity android:name=".ElCafecitoHostal" />
+        <activity
+            android:name=".ElCafecitoHostalMapsActivity"
+            android:label="@string/title_activity_el_cafecito_hostal_maps" />
+        <activity android:name=".BedandBreakfastMiparaiso" />
+        <activity
+            android:name=".BedandBreakfastMiparaisoMapsActivity"
+            android:label="@string/title_activity_bedand_breakfast_miparaiso_maps" />
+        <activity android:name=".MiCasaHostal" />
+        <activity
+            android:name=".MiCasaHostalMapsActivity"
+            android:label="@string/title_activity_mi_casa_hostal_maps" />
+        <activity android:name=".HostalVillaDelRosario" />
+        <activity
+            android:name=".HostalVillaDelRosarioMapsActivity"
+            android:label="@string/title_activity_hostal_villa_del_rosario_maps" />
+        <activity android:name=".ParqueNacionalCajas" />
+        <activity android:name=".MuseoPumapungo" />
+        <activity
+            android:name=".MuseoPumapungoMapsActivity"
+            android:label="@string/title_activity_museo_pumapungo_maps" />
+        <activity android:name=".MuseodelasCulturasAborigenes"></activity>
+    </application>
+
+</manifest>
